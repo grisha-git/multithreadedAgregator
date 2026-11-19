@@ -16,4 +16,13 @@ public class CommonModel {
         this.timestamp = timestamp;
         this.data = data;
     }
+
+    public String getSource() { return source; }
+    public void setSource(String source) { this.source = source; }
+    public String getCategory() { return category; }
+    public void setCategory(String category) { this.category = category; }
+    public long getTimestamp() { return timestamp; }
+    public void setTimestamp(long timestamp) { this.timestamp = timestamp; }
+    public Map<String, Object> getData() { return data; }
+    public void setData(Map<String, Object> data) { this.data = data; }
 }
