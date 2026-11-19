@@ -1,17 +1,36 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import org.example.cli.HttpClientWrapper;
+import org.example.uniformModel.CommonModel;
+import org.example.source.JobOpeningsApi;
+import org.example.source.CommonInterface;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        try {
+            HttpClientWrapper httpClient = new HttpClientWrapper();
+            List<CommonInterface> sources = new ArrayList<>();
+            List<CommonModel> allData = new ArrayList<>();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+            sources.add(new JobOpeningsApi(httpClient, "https://arbeitnow.com/api/job-board-api?page=1"));
+
+            for (CommonInterface source : sources) {
+                List<CommonModel> fetched = source.fetchData();
+                allData.addAll(fetched);
+            }
+
+            if (!allData.isEmpty()) {
+                System.out.println("First record data: " + allData.get(0).getData());
+            }
+        } catch (IllegalArgumentException e) {
+            System.err.println("URL error: " + e.getMessage());
+        } catch (java.io.IOException | InterruptedException e) {
+            System.err.println("Network error or timeout: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println("Parsing error: " + e.getMessage());
         }
     }
 }
