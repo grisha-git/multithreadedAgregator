@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.cli.CLIOptions;
+import org.example.cli.CommandLineParser;
 import org.example.httpClient.HttpClientWrapper;
 import org.example.uniformModel.CommonModel;
 import org.example.source.JobOpeningsApi;
@@ -11,11 +13,19 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         try {
+            CLIOptions options = CommandLineParser.parse(args);
+
             HttpClientWrapper httpClient = new HttpClientWrapper();
             List<CommonInterface> sources = new ArrayList<>();
             List<CommonModel> allData = new ArrayList<>();
 
-            sources.add(new JobOpeningsApi(httpClient, "https://arbeitnow.com/api/job-board-api?page=1"));
+            if (options.getApis().contains("job")) {
+                sources.add(new JobOpeningsApi(httpClient, "https://arbeitnow.com/api/job-board-api?page=1"));
+            }
+            if (sources.isEmpty()) {
+                System.out.println("No api parameter");
+                return;
+            }
 
             for (CommonInterface source : sources) {
                 List<CommonModel> fetched = source.fetchData();
