@@ -1,4 +1,4 @@
-package org.example.cli;
+package org.example.httpClient;
 
 public class HttpClientWrapper {
 }

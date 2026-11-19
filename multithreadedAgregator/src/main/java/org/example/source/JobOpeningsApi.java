@@ -2,7 +2,7 @@ package org.example.source;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.cli.HttpClientWrapper;
+import org.example.httpClient.HttpClientWrapper;
 import org.example.uniformModel.CommonModel;
 
 import java.util.ArrayList;

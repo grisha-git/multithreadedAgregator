@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.cli.HttpClientWrapper;
+import org.example.httpClient.HttpClientWrapper;
 import org.example.uniformModel.CommonModel;
 import org.example.source.JobOpeningsApi;
 import org.example.source.CommonInterface;
