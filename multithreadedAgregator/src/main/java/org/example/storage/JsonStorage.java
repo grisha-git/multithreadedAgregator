@@ -13,7 +13,6 @@ public class JsonStorage implements Storage {
 
     public JsonStorage() {
         this.objectMapper = new ObjectMapper();
-        // Красивый вывод с отступами (чтобы файл читался глазами)
         this.objectMapper.enable(com.fasterxml.jackson.databind.SerializationFeature.INDENT_OUTPUT);
     }
 
@@ -22,15 +21,12 @@ public class JsonStorage implements Storage {
         File file = new File(filename);
         List<CommonModel> finalData = new ArrayList<>();
 
-        // Если режим "дозапись" и файл существует, читаем старые данные
         if (append && file.exists()) {
             finalData.addAll(read(filename));
         }
 
-        // Добавляем новые данные
         finalData.addAll(data);
 
-        // Записываем всё обратно в файл
         objectMapper.writeValue(file, finalData);
     }
 
@@ -40,7 +36,6 @@ public class JsonStorage implements Storage {
         if (!file.exists()) {
             return new ArrayList<>();
         }
-        // Читаем список объектов из файла
         return objectMapper.readValue(file, new TypeReference<List<CommonModel>>() {});
     }
 }

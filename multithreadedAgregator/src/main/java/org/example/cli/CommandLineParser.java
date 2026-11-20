@@ -9,6 +9,7 @@ public class CommandLineParser {
         List<String> apis = new ArrayList<>();
         String format = "json";
         String mode = "create";
+        boolean read = false;
 
         for (int i = 0; i < args.length; i++) {
             switch (args[i]) {
@@ -31,15 +32,18 @@ public class CommandLineParser {
                         i++;
                     }
                     break;
+                case "--read":
+                    read = true;
+                    break;
                 default:
                     break;
             }
         }
 
-        if (apis.isEmpty()) {
+        if (apis.isEmpty() && !read) {
             throw new IllegalArgumentException("Empty parameters");
         }
 
-        return new CLIOptions(apis, format, mode);
+        return new CLIOptions(apis, format, mode, read);
     }
 }

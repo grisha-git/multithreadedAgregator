@@ -30,7 +30,6 @@ public class FloridaManApi implements CommonInterface {
     public List<CommonModel> fetchData() throws Exception {
         String jsonResponse = httpClient.get(url);
 
-        // В этом API корень ответа — это сразу массив (а не объект с полем data)
         JsonNode rootArray = objectMapper.readTree(jsonResponse);
 
         List<CommonModel> records = new ArrayList<>();
@@ -39,13 +38,11 @@ public class FloridaManApi implements CommonInterface {
             for (JsonNode newsNode : rootArray) {
                 Map<String, Object> dataMap = new HashMap<>();
 
-                // Базовые поля
                 dataMap.put("title", newsNode.path("title").asText());
                 dataMap.put("url", newsNode.path("url").asText());
                 dataMap.put("source", newsNode.path("source").asText());
                 dataMap.put("date", newsNode.path("date").asText());
 
-                // Вытаскиваем массив ключевых слов
                 List<String> keywordsList = new ArrayList<>();
                 JsonNode keywordsNode = newsNode.path("keywords");
                 if (keywordsNode.isArray()) {

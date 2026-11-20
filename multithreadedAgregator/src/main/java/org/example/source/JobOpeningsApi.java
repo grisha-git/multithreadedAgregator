@@ -31,7 +31,6 @@ public class JobOpeningsApi implements CommonInterface {
         String jsonResponse = httpClient.get(url);
         JsonNode rootNode = objectMapper.readTree(jsonResponse);
 
-        // В Remotive вакансии лежат в массиве "jobs"
         JsonNode jobsArray = rootNode.get("jobs");
 
         List<CommonModel> records = new ArrayList<>();
@@ -40,7 +39,6 @@ public class JobOpeningsApi implements CommonInterface {
             for (JsonNode jobNode : jobsArray) {
                 Map<String, Object> dataMap = new HashMap<>();
 
-                // Вытаскиваем поля (их тут даже больше 5, и есть строки/числа)
                 dataMap.put("title", jobNode.path("title").asText());
                 dataMap.put("company", jobNode.path("company_name").asText());
                 dataMap.put("category", jobNode.path("category").asText());

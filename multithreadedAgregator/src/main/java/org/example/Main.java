@@ -1,5 +1,7 @@
 package org.example;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import org.example.cli.CLIOptions;
 import org.example.cli.CommandLineParser;
 import org.example.httpClient.HttpClientWrapper;
@@ -9,6 +11,8 @@ import org.example.source.JobOpeningsApi;
 import org.example.source.IngredientsApi;
 import org.example.source.FloridaManApi;
 import org.example.source.CommonInterface;
+import org.example.storage.Storage;
+import org.example.storage.CsvStorage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +21,26 @@ public class Main {
     public static void main(String[] args) {
         try {
             CLIOptions options = CommandLineParser.parse(args);
+
+            if (options.isRead()) {
+                Storage storage;
+                String filename;
+                if (options.getFormat().equals("csv")) {
+                    storage = new CsvStorage();
+                    filename = "results.csv";
+                } else {
+                    storage = new JsonStorage();
+                    filename = "results.json";
+                }
+
+                List<CommonModel> data = storage.read(filename);
+                System.out.println("Прочитано записей: " + data.size());
+
+                ObjectMapper mapper = new ObjectMapper();
+                mapper.enable(SerializationFeature.INDENT_OUTPUT);
+                System.out.println(mapper.writeValueAsString(data));
+                return;
+            }
 
             HttpClientWrapper httpClient = new HttpClientWrapper();
             List<CommonInterface> sources = new ArrayList<>();
@@ -43,12 +67,25 @@ public class Main {
             if (!allData.isEmpty()) {
                 System.out.println("Всего записей: " + allData.size());
 
-                // Создаем хранилище
-                JsonStorage storage = new JsonStorage();
+                if (!allData.isEmpty()) {
+                    System.out.println("Всего записей: " + allData.size());
 
-                // Сохраняем в файл results.json (append = false, т.е. создаем новый)
-                storage.save(allData, "results.json", false);
-                System.out.println("Данные сохранены в results.json!");
+                    Storage storage;
+                    String filename;
+                    boolean appendMode = options.getMode().equals("append");
+
+                    if (options.getFormat().equals("csv")) {
+                        storage = new CsvStorage();
+                        filename = "results.csv";
+                    } else {
+                        storage = new JsonStorage();
+                        filename = "results.json";
+                    }
+
+                    storage.save(allData, filename, appendMode);
+                    System.out.println("Данные сохранены в " + filename + " (Режим: " + (appendMode ? "дозапись" : "создать") + ")");
+
+                }
             }
 
             if (!allData.isEmpty()) {
@@ -58,7 +95,7 @@ public class Main {
             System.err.println("URL error: " + e.getMessage());
         } catch (Exception e) {
             System.err.println("Execution error: " + e.getMessage());
-            e.printStackTrace(); // Добавь для отладки, чтобы видеть, где упало
+            e.printStackTrace();
         }
     }
 }

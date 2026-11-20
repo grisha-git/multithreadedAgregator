@@ -1,7 +1,7 @@
 [ {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "full_time",
     "publication_date" : "2026-11-14T20:33:53",
@@ -14,7 +14,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "full_time",
     "publication_date" : "2026-11-13T17:29:57",
@@ -27,7 +27,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "full_time",
     "publication_date" : "2026-11-11T20:17:48",
@@ -40,7 +40,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "full_time",
     "publication_date" : "2026-11-11T18:39:59",
@@ -53,7 +53,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "contract",
     "publication_date" : "2026-11-11T09:11:58",
@@ -66,7 +66,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "full_time",
     "publication_date" : "2026-11-10T14:25:05",
@@ -79,7 +79,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "full_time",
     "publication_date" : "2026-11-08T21:47:58",
@@ -92,7 +92,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "full_time",
     "publication_date" : "2026-11-07T01:10:55",
@@ -105,7 +105,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "full_time",
     "publication_date" : "2026-11-06T08:51:01",
@@ -118,7 +118,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "freelance",
     "publication_date" : "2026-11-04T16:53:35",
@@ -131,7 +131,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "part_time",
     "publication_date" : "2026-11-04T13:39:06",
@@ -144,7 +144,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "freelance",
     "publication_date" : "2026-11-02T20:01:00",
@@ -157,7 +157,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "contract",
     "publication_date" : "2026-10-29T18:22:41",
@@ -170,7 +170,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "full_time",
     "publication_date" : "2026-10-27T12:56:13",
@@ -183,7 +183,7 @@
 }, {
   "source" : "remotive",
   "category" : "job",
-  "timestamp" : 1795150984482,
+  "timestamp" : 1795152794582,
   "data" : {
     "job_type" : "freelance",
     "publication_date" : "2026-10-22T18:40:19",
@@ -196,7 +196,7 @@
 }, {
   "source" : "exactcup",
   "category" : "ingredient",
-  "timestamp" : 1795150985121,
+  "timestamp" : 1795152795200,
   "data" : {
     "cups_to_grams" : [ {
       "cups" : "1/8",
@@ -305,7 +305,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2026-04-23",
     "keywords" : [ "florida", "indicted", "sexual", "exploitation", "minor", "charges", "alabama", "wbrc", "com" ],
@@ -316,7 +316,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2026-04-23",
     "keywords" : [ "florida", "visits", "tropicana", "field", "home", "tampa", "bay", "rays", "wcjb", "com" ],
@@ -327,7 +327,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2026-04-23",
     "keywords" : [ "florida", "arrested", "alleged", "1993", "bronx", "double", "murder", "couple", "cold", "case", "foxnews", "com" ],
@@ -338,7 +338,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2026-04-23",
     "keywords" : [ "florida", "execution", "date", "set", "killing", "including", "small", "child", "wfmd", "com" ],
@@ -349,7 +349,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2026-04-23",
     "keywords" : [ "florida", "arrested", "1993", "could", "case", "double", "murder", "bronx", "nydailynews", "com" ],
@@ -360,7 +360,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2026-04-23",
     "keywords" : [ "florida", "scheduled", "execution", "killing", "her", "year", "old", "daughter", "foxnews", "com" ],
@@ -371,7 +371,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2026-04-23",
     "keywords" : [ "should", "snap", "recipients", "able", "buy", "sugary", "snacks", "florida", "sparks", "brutal", "online", "debate", "theblaze", "com" ],
@@ -382,7 +382,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "florida", "arrested", "tackling", "year", "old", "girl", "constantly", "egging", "his", "house", "the", "independent", "com" ],
@@ -393,7 +393,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "florida", "arrested", "posing", "ice", "agent", "kidnap", "her", "boyfriend", "wife", "thegrio", "com" ],
@@ -404,7 +404,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "lucky", "scratch", "florida", "wins", "million", "eleven", "cbs12", "com" ],
@@ -415,7 +415,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "florida", "poses", "ice", "agent", "kidnaps", "boyfriend", "wife", "her", "job", "deputies", "wogx", "com" ],
@@ -426,7 +426,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "speaks", "out", "wild", "raccoon", "bite", "florida", "story", "country", "107", "yyd", "newcountry1079", "iheart", "com" ],
@@ -437,7 +437,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "florida", "allegedly", "roughs", "girl", "accuses", "her", "egging", "his", "home", "video", "yahoo", "com" ],
@@ -448,7 +448,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "bizarre", "moment", "florida", "offers", "deputy", "vodka", "spritzer", "during", "chase", "independent" ],
@@ -459,7 +459,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796283,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "florida", "offers", "cops", "vodka", "seltzer", "during", "police", "chase", "tmz", "com" ],
@@ -470,7 +470,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "florida", "rescues", "injured", "bald", "eagle", "lake", "near", "sarasota", "wsvn", "7news", "miami", "news", "weather", "sports", "com" ],
@@ -481,7 +481,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "florida", "dives", "lake", "save", "wounded", "eagle", "symbol", "america", "fox35orlando", "com" ],
@@ -492,7 +492,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "florida", "richard", "christopher", "smith", "offers", "police", "alcohol", "during", "car", "chase", "nypost", "com" ],
@@ -503,7 +503,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "florida", "offers", "police", "booze", "during", "car", "chase", "dont", "know", "expecting", "just", "cheer", "foxwilmington", "com" ],
@@ -514,7 +514,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "florida", "offers", "police", "booze", "during", "car", "chase", "dont", "know", "expecting", "just", "cheers", "wfin", "com" ],
@@ -525,7 +525,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2025-04-23",
     "keywords" : [ "florida", "poses", "ice", "agent", "kidnap", "wife", "boyfriend", "work", "authorities", "wfin", "com" ],
@@ -536,7 +536,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2024-04-23",
     "keywords" : [ "florida", "shot", "his", "girlfriend", "death", "turns", "himself", "body", "still", "car", "hngn", "com" ],
@@ -547,7 +547,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2024-04-23",
     "keywords" : [ "year", "old", "florida", "killed", "single", "vehicle", "monroe", "crash", "13abc", "com" ],
@@ -558,7 +558,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2024-04-23",
     "keywords" : [ "florida", "tries", "board", "flight", "loaded", "gun", "norfolk", "international", "airport", "yahoo", "com" ],
@@ -569,7 +569,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2024-04-23",
     "keywords" : [ "florida", "bitten", "foot", "alligator", "while", "walking", "dog", "yahoo", "com" ],
@@ -580,7 +580,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2023-04-23",
     "keywords" : [ "south", "florida", "shot", "instacart", "delivery", "workers", "went", "wrong", "house", "npr", "org" ],
@@ -591,7 +591,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2023-04-23",
     "keywords" : [ "south", "florida", "shot", "instacart", "delivery", "workers", "went", "wrong", "house", "nation", "world", "news", "wuft", "org" ],
@@ -602,7 +602,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2023-04-23",
     "keywords" : [ "human", "bones", "found", "submerged", "car", "identified", "missing", "florida", "last", "seen", "2006", "wgmd", "com" ],
@@ -613,7 +613,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2023-04-23",
     "keywords" : [ "supporters", "desantis", "want", "trump", "become", "florida", "tampafp", "com" ],
@@ -624,7 +624,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2023-04-23",
     "keywords" : [ "florida", "lex", "scott", "davis", "inside", "day", "life", "usmagazine", "com" ],
@@ -635,7 +635,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2022-04-23",
     "keywords" : [ "florida", "upset", "noticing", "drake", "walk", "her", "bathroom", "wild941", "com" ],
@@ -646,7 +646,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2022-04-23",
     "keywords" : [ "florida", "nice", "day", "weed", "wedding", "wdhafm", "com" ],
@@ -657,7 +657,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2022-04-23",
     "keywords" : [ "south", "florida", "points", "gun", "students", "walking", "home", "school", "wccfradio", "iheart", "com" ],
@@ -668,7 +668,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2022-04-23",
     "keywords" : [ "south", "florida", "points", "gun", "students", "walking", "home", "school", "newsradio", "wiod", "iheart", "com" ],
@@ -679,7 +679,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2022-04-23",
     "keywords" : [ "sword", "wielding", "florida", "breaks", "wendy", "restaurant", "995qyk", "com" ],
@@ -690,7 +690,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2022-04-23",
     "keywords" : [ "south", "florida", "points", "gun", "students", "walking", "home", "school", "big", "105", "big1059", "iheart", "com" ],
@@ -701,7 +701,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "attacks", "uber", "driver", "during", "ride", "unprovoked", "attack", "complex", "com" ],
@@ -712,7 +712,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "you", "thought", "turtles", "couldnt", "fly", "florida", "begs", "differ", "patch", "com" ],
@@ -723,7 +723,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "facing", "years", "prison", "tweeting", "child", "sexual", "abuse", "images", "public", "officials", "orlandosentinel", "com" ],
@@ -734,7 +734,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "dna", "leads", "arrest", "florida", "kidnapping", "sexual", "assault", "murder", "year", "old", "1985", "sheriff", "office", "msn", "com" ],
@@ -745,7 +745,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "gets", "year", "sentence", "2018", "school", "shooting", "orlandosentinel", "com" ],
@@ -756,7 +756,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "103", "nnj", "wnnj", "iheart", "com" ],
@@ -767,7 +767,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "q104", "q1045", "iheart", "com" ],
@@ -778,7 +778,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "rov", "rovrocks", "iheart", "com" ],
@@ -789,7 +789,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "107", "fox", "rocks", "1073rocks", "iheart", "com" ],
@@ -800,7 +800,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "dog", "rocks", "969thedogrocks", "iheart", "com" ],
@@ -811,7 +811,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "106", "wtak", "iheart", "com" ],
@@ -822,7 +822,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "eagle", "107", "eagle1075", "iheart", "com" ],
@@ -833,7 +833,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "pyx", "106", "pyx106", "iheart", "com" ],
@@ -844,7 +844,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "big", "100", "wbig", "iheart", "com" ],
@@ -855,7 +855,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "105", "fox", "1053thefox", "iheart", "com" ],
@@ -866,7 +866,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "rocket", "961therocket", "iheart", "com" ],
@@ -877,7 +877,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "rock", "98rockme", "iheart", "com" ],
@@ -888,7 +888,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "fox", "997thefox", "iheart", "com" ],
@@ -899,7 +899,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "1063", "brew", "1063thebrew", "iheart", "com" ],
@@ -910,7 +910,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "kbrq", "1025thebear", "iheart", "com" ],
@@ -921,7 +921,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "rock", "106", "kfmqrock1061", "iheart", "com" ],
@@ -932,7 +932,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "rock", "96rock", "iheart", "com" ],
@@ -943,7 +943,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986019,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "rock", "106", "rock1067", "iheart", "com" ],
@@ -954,7 +954,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "106", "z106", "iheart", "com" ],
@@ -965,7 +965,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "rock", "94rock", "iheart", "com" ],
@@ -976,7 +976,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "fox", "995thefox", "iheart", "com" ],
@@ -987,7 +987,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "q106", "q106online", "iheart", "com" ],
@@ -998,7 +998,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "100", "fox", "kkrq", "iheart", "com" ],
@@ -1009,7 +1009,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "big", "dog", "bigdog959", "iheart", "com" ],
@@ -1020,7 +1020,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "eagle", "933theeagle", "iheart", "com" ],
@@ -1031,7 +1031,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "z92", "kzrx921", "iheart", "com" ],
@@ -1042,7 +1042,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "big", "105", "big1059", "iheart", "com" ],
@@ -1053,7 +1053,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "gater", "gaterrocks", "iheart", "com" ],
@@ -1064,7 +1064,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "107", "kbpi", "iheart", "com" ],
@@ -1075,7 +1075,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "100", "wrdu", "iheart", "com" ],
@@ -1086,7 +1086,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "laser", "101", "laser1017", "iheart", "com" ],
@@ -1097,7 +1097,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "1059", "rock", "1059therock", "iheart", "com" ],
@@ -1108,7 +1108,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "kj108", "kjkj", "iheart", "com" ],
@@ -1119,7 +1119,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "rock", "101", "rock101fm", "iheart", "com" ],
@@ -1130,7 +1130,7 @@
 }, {
   "source" : "florida-man",
   "category" : "news",
-  "timestamp" : 1795150986020,
+  "timestamp" : 1795152796284,
   "data" : {
     "date" : "2021-04-23",
     "keywords" : [ "florida", "ninja", "turtle", "flew", "through", "windshield", "rock", "101", "wmrr", "rock1017fm", "iheart", "com" ],
