@@ -10,39 +10,44 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class JobOpeningsApi implements CommonInterface{
+public class JobOpeningsApi implements CommonInterface {
     private final HttpClientWrapper httpClient;
     private final ObjectMapper objectMapper;
     private final String url;
 
     public JobOpeningsApi(HttpClientWrapper httpClient, String url) {
         this.httpClient = httpClient;
-        this.objectMapper = new ObjectMapper(); // Парсер JSON
+        this.objectMapper = new ObjectMapper();
         this.url = url;
     }
 
     @Override
     public String getSourceName() {
-        return "job_opening";
+        return "remotive"; // Имя API
     }
 
     @Override
     public List<CommonModel> fetchData() throws Exception {
         String jsonResponse = httpClient.get(url);
         JsonNode rootNode = objectMapper.readTree(jsonResponse);
-        JsonNode dataArray = rootNode.get("data");
+
+        // В Remotive вакансии лежат в массиве "jobs"
+        JsonNode jobsArray = rootNode.get("jobs");
 
         List<CommonModel> records = new ArrayList<>();
 
-        if (dataArray != null && dataArray.isArray()) {
-            for (JsonNode jobNode : dataArray) {
+        if (jobsArray != null && jobsArray.isArray()) {
+            for (JsonNode jobNode : jobsArray) {
                 Map<String, Object> dataMap = new HashMap<>();
 
+                // Вытаскиваем поля (их тут даже больше 5, и есть строки/числа)
                 dataMap.put("title", jobNode.path("title").asText());
                 dataMap.put("company", jobNode.path("company_name").asText());
-                dataMap.put("location", jobNode.path("location").asText());
-                dataMap.put("remote", jobNode.path("remote").asBoolean());
-                dataMap.put("created_at", jobNode.path("created_at").asLong());
+                dataMap.put("category", jobNode.path("category").asText());
+                dataMap.put("job_type", jobNode.path("job_type").asText());
+                dataMap.put("location", jobNode.path("candidate_required_location").asText());
+                dataMap.put("salary", jobNode.path("salary").asText());
+                dataMap.put("publication_date", jobNode.path("publication_date").asText());
 
                 CommonModel model = new CommonModel(
                         getSourceName(),
@@ -50,11 +55,9 @@ public class JobOpeningsApi implements CommonInterface{
                         System.currentTimeMillis(),
                         dataMap
                 );
-
                 records.add(model);
             }
         }
         return records;
     }
-
 }

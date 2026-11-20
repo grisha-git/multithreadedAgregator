@@ -20,7 +20,7 @@ public class Main {
             List<CommonModel> allData = new ArrayList<>();
 
             if (options.getApis().contains("job")) {
-                sources.add(new JobOpeningsApi(httpClient, "https://arbeitnow.com/api/job-board-api?page=1"));
+                sources.add(new JobOpeningsApi(httpClient, "https://remotive.com/api/remote-jobs?limit=10"));
             }
             if (sources.isEmpty()) {
                 System.out.println("No api parameter");
@@ -37,10 +37,9 @@ public class Main {
             }
         } catch (IllegalArgumentException e) {
             System.err.println("URL error: " + e.getMessage());
-        } catch (java.io.IOException | InterruptedException e) {
-            System.err.println("Network error or timeout: " + e.getMessage());
         } catch (Exception e) {
-            System.err.println("Parsing error: " + e.getMessage());
+            System.err.println("Execution error: " + e.getMessage());
+            e.printStackTrace(); // Добавь для отладки, чтобы видеть, где упало
         }
     }
 }
